@@ -1,4 +1,4 @@
-""" if __name__ == '__main__':
+if __name__ == '__main__':
     Result =[]
     scorelist = []
     for _ in range(int(input())):
@@ -9,5 +9,5 @@
     b=sorted(list(set(scorelist)))[1] 
     for a,c in sorted(Result):
         if c==b:
-            print(a) """
+            print(a)
 
